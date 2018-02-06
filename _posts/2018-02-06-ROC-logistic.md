@@ -13,6 +13,7 @@ ROC曲线被广泛用于二分类输出模型的性能评估。这里我们将�
 
 ---
 #### 探索和准备数据
+
 ```R
 > library(ggplot2)
 > str(diamonds)    # diamonds是ggplot2里的数据集
@@ -68,7 +69,7 @@ Classes ‘tbl_df’, ‘tbl’ and 'data.frame':	53940 obs. of  10 variables:
 logical   26959   26981
 ```
 
-#### （二）训练模型
+#### 训练模型
 因为样本的数目很多，所以通常情况下，我们选取其中的70%用于训练，剩余的30%用于测试。
 
 ```R
