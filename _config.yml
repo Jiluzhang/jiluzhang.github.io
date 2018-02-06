@@ -4,10 +4,10 @@
 # ---------------------------------------------------------------
 
 # Site
-title: NexT
+title: Jiluzhang
 subtitle:
-description:
-author: John Doe
+description: "I am a student working hard for Ph.D, and desire to be an excellent data scientist."
+author: Luz
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
 date_format: '%Y-%m-%d'
@@ -83,7 +83,7 @@ keywords: "Jekyll, NexT"
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: false
 
 # Specify the date when the site was setup
 #since: 2015
@@ -150,9 +150,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -232,7 +232,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-#avatar:
+avatar: /assets/images/jiluzhang.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -474,7 +474,7 @@ vkontakte_api:
   app_id:       #<app_id>
   like:         true
   comments:     true
-  num_of_posts: 10
+  num_of_posts: 5
 
 # Star rating support to each article.
 # To get your ID visit https://widgetpack.com
