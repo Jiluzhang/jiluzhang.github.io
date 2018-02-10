@@ -1,5 +1,5 @@
 ---
-title: 2018年你应该读的5大数据科学出版物（译，有改动）
+title: 2018年你要读的5大数据科学出版物（译，有改动）
 description: 你需要关注有关数据科学的动态
 categories:
  - reprint
