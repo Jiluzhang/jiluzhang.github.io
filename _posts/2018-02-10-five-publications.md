@@ -11,7 +11,7 @@ tags:
 
 ---
 
-![pic_1](posts_pic/five_publications/pic_1.png)
+![pic_1](https://jiluzhang.github.io/posts_pic/five_publications/pic_1.png)
 
 如果你咨询一位数据科学家是如何开始或者提升他的事业，他们将告诉你其中首先要做的就是去**阅读**。这不是你期待的回答吧？对于这种答案，你肯定会感到惊讶。数据科学家们会持续阅读以及探索在这个快速变化的数据领域里发生的事情。
 
