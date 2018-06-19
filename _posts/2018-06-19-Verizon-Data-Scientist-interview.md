@@ -8,6 +8,7 @@ tags:
 ---
 
 > If you were a data scientist at a web company that sells shoes, how would you build a system that recommends shoes to a visitor? 
+
 - Break the answer to two components: **Data science** and **Data engineering**.
 - Let's discuss the data science element first. If it is a new company that does not have much historical user data, go with item to item similarity. If the number of different items/shoes is extremely large, consider using **matrix factorization** techniques to reduce the dimensions.
 - If you have historical data around user preferences (e.g. ratings of shoes), you can use a **collaborative filter** type approach. Mention specifically the rows and columns of the matrix you generate with either approach. Then discuss what kink of **similarity metrics** you would try. E.g. euclidean distance, Jaccard similarity, cosine distance.
