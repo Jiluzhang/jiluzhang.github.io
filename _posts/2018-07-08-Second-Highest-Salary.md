@@ -62,7 +62,7 @@ order by SecondHighestSalary desc limit 1 offset 1;
 
 ##### 解法二（Runtime: 297ms）
 
-```mysql
+```sql
 select max(Salary) as SecondHighestSalary from Employee
 where Salary not in
 (select max(Salary) from Employee);
@@ -72,7 +72,7 @@ where Salary not in
 
 ##### 解法三（Runtime: 152ms）
 
-```mysql
+```sql
 select max(Salary) as SecondHighestSalary from Employee
 where Salary <
 (select max(Salary) from Employee);
@@ -82,7 +82,7 @@ where Salary <
 
 ##### 解法四（Runtime: 483ms）【该解法可扩展到寻找Nth高的情况】
 
-```mysql
+```sql
 select distinct(Salary) as SecondHighestSalary from Employee E1
 where 1 =
 (select count(distinct(E2.Salary)) from Employee E2
