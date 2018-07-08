@@ -1,6 +1,6 @@
 ---
 title: LeetCode - Second Highest Salary
-description: 查询第二高的工资
+description: SQL查询第二高的工资
 categories:
  - LeetCode
 tags:
