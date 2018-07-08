@@ -40,7 +40,7 @@ For example, given the above Employee table, the query should return `200` as th
 
 ##### 解法一（Runtime: 186ms）
 
-```mysql
+```sql
 select Salary as SecondHighestSalary from Employee group by Salary
 union all (select null as Salary)  
 # If there no second highest salary, then the query will return null;
