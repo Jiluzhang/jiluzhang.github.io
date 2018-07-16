@@ -37,7 +37,7 @@ For example, return the following Ids for the above `Weather` table:
 
 
 
-####解法一（Runtime: 338ms）
+#### 解法一（Runtime: 338ms）
 
 ```sql
 select w1.Id from Weather w1 inner join Weather w2
